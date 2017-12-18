@@ -18,16 +18,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JPeer264/crufty.git"
+    "url": "git+https://github.com/JPeer264/node-crufty.git"
   },
   "author": "Jan Peer Stöcklmair <janpeer264@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JPeer264/crufty/issues"
+    "url": "https://github.com/JPeer264/node-crufty/issues"
   },
-  "homepage": "https://github.com/JPeer264/crufty#readme",
+  "homepage": "https://github.com/JPeer264/node-crufty#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
+    "current-git-branch": "^1.0.1",
+    "glob": "^7.1.2",
+    "globby": "^7.1.1",
     "inquirer": "^4.0.1",
+    "is-git-repository": "^1.1.1",
+    "log-update": "^2.3.0",
+    "opn": "^5.1.0",
     "update-notifier": "^2.3.0",
     "yargs": "^10.0.3"
   },
@@ -37,7 +44,9 @@
     "eslint": "^4.13.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "fs-extra": "^5.0.0",
     "husky": "^0.14.3",
-    "nyc": "^11.3.0"
+    "nyc": "^11.3.0",
+    "temp": "^0.8.3"
   }
 }
