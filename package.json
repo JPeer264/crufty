@@ -29,6 +29,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "current-git-branch": "^1.0.1",
+    "git-root": "^1.0.0",
     "glob": "^7.1.2",
     "globby": "^7.1.1",
     "inquirer": "^4.0.1",
